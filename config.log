@@ -1,0 +1,1000 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:1252: checking host system type
+configure:1273: checking target system type
+configure:1291: checking build system type
+configure:1398: checking for gcc
+configure:1511: checking whether the C compiler (gcc  ) works
+configure:1527: gcc -o conftest    conftest.c  1>&5
+configure:1524:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main(){return(0);}
+ ^~~~
+configure:1553: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1558: checking whether we are using GNU C
+configure:1567: gcc -E conftest.c
+configure:1586: checking whether gcc accepts -g
+configure:1618: checking how to run the C preprocessor
+configure:1639: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1703: checking for c++
+configure:1735: checking whether the C++ compiler (c++  ) works
+configure:1751: c++ -o conftest    conftest.C  1>&5
+configure:1777: checking whether the C++ compiler (c++  ) is a cross-compiler
+configure:1782: checking whether we are using GNU C++
+configure:1791: c++ -E conftest.C
+configure:1810: checking whether c++ accepts -g
+configure:1842: checking how to run the C++ preprocessor
+configure:1860: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:1908: checking for POSIXized ISC
+configure:1938: checking OS Type
+configure:2612: checking for open in -lpthread
+configure:2634: c++ -o conftest -g -O2  -D_REENTRANT  conftest.C -lpthread   1>&5 
+configure:2660: checking for pthread.h
+configure:2670: c++ -E  -D_REENTRANT conftest.C >/dev/null 2>conftest.out
+configure:2660: checking for sched.h
+configure:2670: c++ -E  -D_REENTRANT conftest.C >/dev/null 2>conftest.out
+configure:2702: checking for semaphore.h
+configure:2712: c++ -E  -D_REENTRANT conftest.C >/dev/null 2>conftest.out
+configure:3849: checking for bison
+configure:3849: checking for byacc
+configure:3882: checking for flex
+configure:3916: checking for yywrap in -ll
+configure:3938: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ll   1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -ll
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 3924 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char yywrap();
+
+int main() {
+yywrap()
+; return 0; }
+configure:3968: checking for ar
+configure:3975: checking for ranlib
+configure:4003: checking whether make sets ${MAKE}
+configure:4034: checking for tclsh
+configure:4072: checking for javac
+configure:4107: checking for JDK 1.1
+configure:4124: checking for JavaCUP
+configure:4538: checking for esnacc/c++/asn-incl.h
+configure:4548: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:4544:10: fatal error: esnacc/c++/asn-incl.h: No such file or directory
+ #include <esnacc/c++/asn-incl.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+configure: failed program was:
+#line 4543 "configure"
+#include "confdefs.h"
+#include <esnacc/c++/asn-incl.h>
+configure:4571: checking for open in -lc++asn1
+configure:4593: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lc++asn1   1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lc++asn1
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4579 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:4618: checking for esnacc
+configure:4668: checking for smp/AttributeCertificateDefinitions.h
+configure:4678: c++ -E  -I/usr/include/esnacc/c++ -I/usr/local/include/esnacc/c++ conftest.C >/dev/null 2>conftest.out
+configure:4674:10: fatal error: smp/AttributeCertificateDefinitions.h: No such file or directory
+ #include <smp/AttributeCertificateDefinitions.h>
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+configure: failed program was:
+#line 4673 "configure"
+#include "confdefs.h"
+#include <smp/AttributeCertificateDefinitions.h>
+configure:4703: checking for open in -lcmlasn
+configure:4725: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lcmlasn   1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lcmlasn
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4711 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:4838: checking for open in -lm
+configure:4860: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lm   1>&5 
+configure:4890: checking for open in -lnsl
+configure:4912: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lnsl -lsocket -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 4898 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:4948: checking for X
+configure:5015: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:5011:10: fatal error: X11/Intrinsic.h: No such file or directory
+ #include <$x_direct_test_include>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+configure: failed program was:
+#line 5010 "configure"
+#include "confdefs.h"
+#include <X11/Intrinsic.h>
+configure:5091: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lXt -lm  1>&5 
+configure: In function 'int main()':
+configure:5087:1: error: 'XtMalloc' was not declared in this scope
+ ${x_direct_test_function}()
+ ^~~~~~~~
+configure: failed program was:
+#line 5084 "configure"
+#include "confdefs.h"
+
+int main() {
+XtMalloc()
+; return 0; }
+configure:5816: checking for open in -lsocket
+configure:5838: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lsocket  -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lsocket
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 5824 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:5866: checking for open in -lbsd
+configure:5888: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lbsd  -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lbsd
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 5874 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:5917: checking for open in -lelf
+configure:5939: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lelf  -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lelf
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 5925 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:5967: checking for open in -ldl
+configure:5989: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl  -lm  1>&5 
+configure:6017: checking for open in -ldld
+configure:6039: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldld  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -ldld
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6025 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6067: checking for open in -lld
+configure:6089: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lld  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lld
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6075 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6175: checking for open in -lcrypto
+configure:6197: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lcrypto  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lcrypto
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6183 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6225: checking for open in -lssl
+configure:6247: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lssl  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lssl
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6233 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6351: checking for open in -lncurses
+configure:6373: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lncurses  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lncurses
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6359 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6403: checking for open in -ltermcap
+configure:6425: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ltermcap  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -ltermcap
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6411 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6454: checking for open in -lHcurses
+configure:6476: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lHcurses  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lHcurses
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6462 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6505: checking for open in -lcurses
+configure:6527: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lcurses  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lcurses
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6513 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char open();
+
+int main() {
+open()
+; return 0; }
+configure:6557: checking for readline in -lreadline
+configure:6579: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -lreadline  -ldl -lm  1>&5 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lreadline
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 6565 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+#ifdef __cplusplus
+extern "C"
+#endif
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char readline();
+
+int main() {
+readline()
+; return 0; }
+configure:6627: checking for ANSI C header files
+configure:6640: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6710: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5 
+configure:6737: checking for fcntl.h
+configure:6747: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6737: checking for unistd.h
+configure:6747: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6737: checking for sys/select.h
+configure:6747: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6737: checking for strings.h
+configure:6747: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6737: checking for float.h
+configure:6747: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6737: checking for ieeefp.h
+configure:6747: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6743:10: fatal error: ieeefp.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~ 
+compilation terminated.
+configure: failed program was:
+#line 6742 "configure"
+#include "confdefs.h"
+#include <ieeefp.h>
+configure:6777: checking for sys/un.h
+configure:6787: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6777: checking for netinet/in.h
+configure:6787: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6777: checking for arpa/inet.h
+configure:6787: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6777: checking for netdb.h
+configure:6787: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6777: checking for dlfcn.h
+configure:6787: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6777: checking for dl.h
+configure:6787: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6783:10: fatal error: dl.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~
+compilation terminated.
+configure: failed program was:
+#line 6782 "configure"
+#include "confdefs.h"
+#include <dl.h>
+configure:6817: checking for netinet/tcp.h
+configure:6827: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6817: checking for stdlib.h
+configure:6827: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6817: checking for sys/time.h
+configure:6827: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6817: checking for sunmath.h
+configure:6827: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6823:10: fatal error: sunmath.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~  
+compilation terminated.
+configure: failed program was:
+#line 6822 "configure"
+#include "confdefs.h"
+#include <sunmath.h>
+configure:6817: checking for sys/stat.h
+configure:6827: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6857: checking for poll.h
+configure:6867: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6898: checking for exception
+configure:6908: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6898: checking for exception.h
+configure:6908: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6904:10: fatal error: exception.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~    
+compilation terminated.
+configure: failed program was:
+#line 6903 "configure"
+#include "confdefs.h"
+#include <exception.h>
+configure:6898: checking for terminate.h
+configure:6908: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6904:10: fatal error: terminate.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~    
+compilation terminated.
+configure: failed program was:
+#line 6903 "configure"
+#include "confdefs.h"
+#include <terminate.h>
+configure:6898: checking for openssl/ssl.h
+configure:6908: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6904:10: fatal error: openssl/ssl.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~      
+compilation terminated.
+configure: failed program was:
+#line 6903 "configure"
+#include "confdefs.h"
+#include <openssl/ssl.h>
+configure:6898: checking for pgsql/libpq-fe.h
+configure:6908: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6904:10: fatal error: pgsql/libpq-fe.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~         
+compilation terminated.
+configure: failed program was:
+#line 6903 "configure"
+#include "confdefs.h"
+#include <pgsql/libpq-fe.h>
+configure:6940: checking for qapplication.h
+configure:6950: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6946:10: fatal error: qapplication.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~       
+compilation terminated.
+configure: failed program was:
+#line 6945 "configure"
+#include "confdefs.h"
+#include <qapplication.h>
+configure:6940: checking for qsocketnotifier.h
+configure:6950: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6946:10: fatal error: qsocketnotifier.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~          
+compilation terminated.
+configure: failed program was:
+#line 6945 "configure"
+#include "confdefs.h"
+#include <qsocketnotifier.h>
+configure:6940: checking for qlineedit.h
+configure:6950: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6946:10: fatal error: qlineedit.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~    
+compilation terminated.
+configure: failed program was:
+#line 6945 "configure"
+#include "confdefs.h"
+#include <qlineedit.h>
+configure:6982: checking for byteorder.h
+configure:6992: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:6988:10: fatal error: byteorder.h: No such file or directory
+ #include <$ac_hdr>
+          ^~~~~~~~~    
+compilation terminated.
+configure: failed program was:
+#line 6987 "configure"
+#include "confdefs.h"
+#include <byteorder.h>
+configure:7025: checking for iostream
+configure:7035: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:7025: checking for map
+configure:7035: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:7025: checking for string
+configure:7035: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:7025: checking for sstream
+configure:7035: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:7063: checking for Ansi C++ headers
+configure:7077: checking for cxxabi.h
+configure:7087: c++ -E  conftest.C >/dev/null 2>conftest.out
+configure:7116: checking for __cxa_demangle
+configure:7147: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5 
+configure:7177: checking whether time.h and sys/time.h may both be included
+configure:7191: c++ -c -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5 
+configure: In function 'int main()':
+configure:7187:12: warning: unused variable 'tp' [-Wunused-variable]
+ struct tm *tp;
+            ^~
+configure:7212: checking for the third argument of getsockname
+configure:7226: c++ -c -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5 
+configure:7250: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5 
+configure: In function 'int main()':
+configure:7246:27: error: invalid conversion from 'int*' to 'socklen_t* {aka unsigned int*}' [-fpermissive]
+ int a=0; getsockname(0,0, &a);
+                           ^~
+In file included from configure:7244:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:116:12: note:   initializing argument 3 of 'int getsockname(int, sockaddr*, socklen_t*)'
+ extern int getsockname (int __fd, __SOCKADDR_ARG __addr,
+            ^~~~~~~~~~~
+configure: failed program was:
+#line 7241 "configure"
+#include "confdefs.h"
+
+#include <sys/types.h>
+#include <sys/socket.h>
+int main() {
+int a=0; getsockname(0,0, &a);
+; return 0; }
+configure:7293: checking for the second argument of getsockname
+configure:7311: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5 
+configure: In function 'int main()':
+configure:7307:28: error: cannot convert 'caddr_t {aka char*}' to 'sockaddr*' for argument '2' to 'int getsockname(int, sockaddr*, socklen_t*)'
+ getsockname(0,(caddr_t)0, 0);
+                            ^
+configure: failed program was:
+#line 7302 "configure"
+#include "confdefs.h"
+
+#include <sys/types.h>
+#include <sys/socket.h>
+int main() {
+getsockname(0,(caddr_t)0, 0);
+; return 0; }
+configure:7339: checking for select argument type
+configure:7361: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5 
+configure: In function 'int main()':
+configure:7357:42: error: cannot convert 'int*' to 'fd_set*' for argument '2' to 'int select(int, fd_set*, fd_set*, fd_set*, timeval*)'
+ select(0, (int *)0, (int *)0, (int *)0, 0);
+                                          ^
+configure: failed program was:
+#line 7348 "configure"
+#include "confdefs.h"
+
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_SELECT_H
+#include <sys/select.h>
+#endif
+int main() {
+select(0, (int *)0, (int *)0, (int *)0, 0);
+; return 0; }
+configure:7389: checking whether gettimeofday has two args
+configure:7407: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5 
+configure: In function 'int main()':
+configure:7403:16: error: too few arguments to function 'int gettimeofday(timeval*, __timezone_ptr_t)'
+ gettimeofday (0);
+                ^
+In file included from configure:7400:0:
+/usr/include/x86_64-linux-gnu/sys/time.h:68:12: note: declared here
+ extern int gettimeofday (struct timeval *__restrict __tv,
+            ^~~~~~~~~~~~
+configure: failed program was:
+#line 7398 "configure"
+#include "confdefs.h"
+
+#include <sys/time.h>
+#include <unistd.h>
+int main() {
+gettimeofday (0);
+; return 0; }
+configure:7432: checking for scanf("%Lf")
+configure:7453: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5 
+configure:7489: checking for printf("%Lf")
+configure:7511: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5 
+configure:7566: checking for vprintf
+configure:7594: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7578:6: warning: conflicting types for built-in function 'vprintf' [-Wbuiltin-declaration-mismatch]
+ char vprintf();
+      ^~~~~~~
+configure:7673: checking for strdup
+configure:7701: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7685:6: warning: conflicting types for built-in function 'strdup' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~~
+configure:7673: checking for strerror
+configure:7701: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7673: checking for gethostname
+configure:7701: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7673: checking for infnan
+configure:7701: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+/tmp/ccvM8J9z.o: In function `main':
+conftest.c:(.text.startup+0x7): undefined reference to `infnan'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 7678 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char infnan(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char infnan();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_infnan) || defined (__stub___infnan)
+choke me
+#else
+infnan();
+#endif
+
+; return 0; }
+configure:7673: checking for isnan
+configure:7701: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7685:6: warning: conflicting types for built-in function 'isnan' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~
+configure:7673: checking for isinf
+configure:7701: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7685:6: warning: conflicting types for built-in function 'isinf' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~
+configure:7673: checking for finite
+configure:7701: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7685:6: warning: conflicting types for built-in function 'finite' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~~
+configure:7728: checking for infnanl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+/tmp/ccEExosH.o: In function `main':
+conftest.c:(.text.startup+0x7): undefined reference to `infnanl'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 7733 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char infnanl(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char infnanl();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_infnanl) || defined (__stub___infnanl)
+choke me
+#else
+infnanl();
+#endif
+
+; return 0; }
+configure:7728: checking for isnanl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'isnanl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~~
+configure:7728: checking for isinfl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'isinfl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~~
+configure:7728: checking for asinl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'asinl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~
+configure:7728: checking for ldexpl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'ldexpl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~~
+configure:7728: checking for frexpl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'frexpl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~~
+configure:7728: checking for fabsl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'fabsl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~
+configure:7728: checking for floorl
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'floorl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~~
+configure:7728: checking for ceill
+configure:7756: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7740:6: warning: conflicting types for built-in function 'ceill' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~
+configure:7783: checking for powl
+configure:7811: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7795:6: warning: conflicting types for built-in function 'powl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~
+configure:7783: checking for fmodl
+configure:7811: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7795:6: warning: conflicting types for built-in function 'fmodl' [-Wbuiltin-declaration-mismatch]
+ char $ac_func();
+      ^~~~~
+configure:7783: checking for dlopen
+configure:7811: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7783: checking for shl_load
+configure:7811: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+/tmp/ccLT26xs.o: In function `main':
+conftest.c:(.text.startup+0x7): undefined reference to `shl_load'
+collect2: error: ld returned 1 exit status
+configure: failed program was:
+#line 7788 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char shl_load(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char shl_load();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_shl_load) || defined (__stub___shl_load)
+choke me
+#else
+shl_load();
+#endif
+
+; return 0; }
+configure:7783: checking for ftime
+configure:7811: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7838: checking for backtrace
+configure:7866: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:7838: checking for backtrace_symbols
+configure:7866: gcc -o conftest -O2  -Wall    conftest.c -ldl -lm  1>&5
+configure:9940: checking size of unsigned char
+configure:9962: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:9953:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:9957:43: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(unsigned char));
+                                           ^
+configure:9982: checking size of int
+configure:10004: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:9995:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:9999:33: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(int));
+                                 ^
+configure:10024: checking size of unsigned int
+configure:10046: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10037:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10041:42: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(unsigned int));
+                                          ^
+configure:10066: checking size of long
+configure:10088: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10079:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10083:34: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(long));
+                                  ^
+configure:10108: checking size of unsigned long
+configure:10130: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10121:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10125:43: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(unsigned long));
+                                           ^
+configure:10150: checking size of long long
+configure:10172: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10163:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10167:39: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(long long));
+                                       ^
+configure:10192: checking size of unsigned long long
+configure:10214: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10205:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10209:48: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(unsigned long long));
+                                                ^
+configure:10234: checking size of short
+configure:10256: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10247:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10251:35: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(short));
+                                   ^
+configure:10276: checking size of unsigned short
+configure:10298: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10289:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10293:44: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(unsigned short));
+                                            ^
+configure:10318: checking size of float
+configure:10340: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10331:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10335:35: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(float));
+                                   ^
+configure:10360: checking size of double
+configure:10382: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10373:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10377:36: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(double));
+                                    ^
+configure:10402: checking size of long double
+configure:10424: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:10415:6: warning: ISO C++ forbids declaration of 'main' with no type [-Wreturn-type]
+ main()
+      ^
+configure: In function 'int main()':
+configure:10419:41: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+   fprintf(f, "%d\n", sizeof(long double));
+                                         ^
+configure:10450: checking whether byte ordering is bigendian
+configure:10468: c++ -c -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure:10483: c++ -c -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure: In function 'int main()':
+configure:10478:6: error: 'big' was not declared in this scope
+  not big endian
+      ^~~
+configure: failed program was:
+#line 10472 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+#include <sys/param.h>
+int main() {
+
+#if BYTE_ORDER != BIG_ENDIAN
+ not big endian
+#endif
+; return 0; }
+configure:10570: checking for floating point type
+configure:10600: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure: In function 'int main()':
+configure:10585:16: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   if (*(int *)&f != 0)
+                ^
+configure:10589:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   if (*(unsigned int *)&f != 0x447a2000)
+                         ^
+configure:10593:25: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   if (*(unsigned int *)&f != 0xc47a2000)
+                         ^
+configure:10640: checking for gethostname prototype
+configure:10668:10: fatal error: winsock.h: No such file or directory
+ #include <winsock.h>
+          ^~~~~~~~~~~
+compilation terminated.
+configure:10688: checking for finite prototype
+configure:10712: checking for strerror prototype
+configure:10736: checking for ftime prototype
+configure:10766: checking for bool
+configure:10778: c++ -c -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure: In function 'int main()':
+configure:10774:6: warning: unused variable 'b' [-Wunused-variable]
+ bool b = true;
+      ^
+configure:10804: checking for typename
+configure:10828: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure:10859: checking for guiding declarations
+configure:10887: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure:10914: checking for namespaces
+configure:10942: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure:10975: checking for const overload
+configure:11007: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure: In function 'void foo(S&, const S&)':
+configure:10999:10: error: variable 'i' set but not used [-Werror=unused-but-set-variable]
+      int i = s; i = cs; i = *s; i = *cs;
+          ^
+cc1plus: all warnings being treated as errors
+configure:11034: checking for explicit method override
+configure:11074: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure: In function 'void m()':
+configure:11068:5: error: request for member 'f' is ambiguous
+   i.f();
+     ^
+configure:11053:16: note: candidates are: virtual void Skel2::f()
+   virtual void f () {}
+                ^
+configure:11050:16: note:                 virtual void Skel1::f()
+   virtual void f () {}
+                ^
+configure:11102: checking whether explicit struct methods are needed
+configure:11162: c++ -o conftest -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE    conftest.C -ldl -lm  1>&5
+configure:11190: checking for overloaded typedefs
+configure:11216: c++ -c -Werror -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure:11244: checking for dynamic_cast support
+configure:11278: c++ -c -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   conftest.C 1>&5
+configure: In function 'int main()':
+configure:11273:7: warning: unused variable 'c' [-Wunused-variable]
+   C * c = dynamic_cast<C*> (b);
+       ^
+configure:11302: checking for exception handling flags
+configure:11323: checking for exception handling
+configure:11348: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE     conftest.C -ldl -lm  1>&5
+configure:11405: checking for standard exception handling
+configure:11434: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE     conftest.C -ldl -lm  1>&5
+configure:11491: checking how to create shared libraries
+configure:11521: checking build of PIC object file
+configure:11562: checking creation of shared lib
+c++ -shared -fPIC -fPIC -rdynamic    -o libshtest.so   'shtest.o'
+configure:11586: checking if binary linked against shlib works
+configure:11612: c++ -o conftest -fPIC -rdynamic -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   -DHAVE_EXCEPTIONS  -L.   -rdynamic conftest.C -lshtest -ldl -lm  1>&5
+configure:11656: checking for exceptions in shared libraries
+configure:11690: c++ -o conftest -fPIC -rdynamic -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE   -DHAVE_EXCEPTIONS  -L.   -rdynamic conftest.C -lshtest -ldl -lm  1>&5
+configure:11746: checking for dynamic loading
+configure:11796: c++ -o conftest -O2  -Wall -Wwrite-strings -D_REENTRANT -D_GNU_SOURCE     -rdynamic conftest.C -ldl -lm  1>&5
+configure: In function 'int main()':
+configure:11790:12: warning: ignoring return value of 'int system(const char*)', declared with attribute warn_unused_result [-Wunused-result]
+     system ("touch mconf.explicit-ctors");
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
