@@ -747,7 +747,7 @@ static const char *const yytname[] =
   "fixed_array_sizes", "fixed_array_size", "attr_dcl", "except_dcl", 
   "members", "op_dcl", "op_attribute", "op_type_spec", "parameter_dcls", 
   "param_dcls", "param_dcl", "param_attribute", "raises_expr", 
-  "context_expr", "string_literals", "T_string_literal", 
+  "context_expr", "_string_literals", "T_string_literal", 
   "T_wstring_literal", "param_type_spec", "fixed_pt_type", 
   "fixed_pt_const_type", "value_base_type", "constr_forward_decl", 
   "import", "imported_scope", "type_id_dcl", "type_prefix_dcl", 
@@ -3639,7 +3639,7 @@ yyreduce:
   case 251:
 #line 1792 "yacc.yy"
     {
-	    yyval.node = new ParseNode( string_literals );
+	    yyval.node = new ParseNode( _string_literals );
 	    yyval.node->setIdent( yyvsp[0]._str );
 	  }
     break;
@@ -3647,7 +3647,7 @@ yyreduce:
   case 252:
 #line 1797 "yacc.yy"
     {
-	    yyval.node = new ParseNode( string_literals, yyvsp[0].node );
+	    yyval.node = new ParseNode( _string_literals, yyvsp[0].node );
 	    yyval.node->setIdent( yyvsp[-2]._str );
 	  }
     break;
@@ -3774,7 +3774,7 @@ yyreduce:
   case 267:
 #line 1919 "yacc.yy"
     {
-	    yyval.node = new ParseNode (string_literals);
+	    yyval.node = new ParseNode (_string_literals);
 	    yyval.node->setIdent (yyvsp[0]._str);
 	  }
     break;

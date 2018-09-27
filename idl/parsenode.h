@@ -121,7 +121,7 @@ typedef enum
   t_default,
   element_spec,
   enum_case_label,
-  string_literals,
+  _string_literals,
   t_pragma,
   t_include,
   t_long_double,

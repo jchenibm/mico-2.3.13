@@ -124,7 +124,7 @@ static ParseNodeDoc parseNodeDoc[] = {
   { "t_default", 0 },
   { "element_spec", 0 },
   { "enum_case_label", 1 },
-  { "string_literals", 1 },
+  { "_string_literals", 1 },
   { "t_pragma", 1 },
   { "t_include", 1 },
   { "t_long_double", 0 },
